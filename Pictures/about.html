@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Об Алматы</title>
+    <style>
+        /* Обнуляем отступы и размеры для всех элементов */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('https://media.istockphoto.com/id/1333589684/ru/%D1%84%D0%BE%D1%82%D0%BE/%D0%B2%D0%B8%D0%B4-%D1%81-%D0%B2%D0%BE%D0%B7%D0%B4%D1%83%D1%85%D0%B0-%D0%BD%D0%B0-%D1%86%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%83%D1%8E-%D1%87%D0%B0%D1%81%D1%82%D1%8C-%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B0-%D0%B0%D0%BB%D0%BC%D0%B0%D1%82%D1%8B.jpg?s=612x612&w=0&k=20&c=_IJXwCYANB7R2sZjJ061WjDoyJX53cMDL4LyQ9MkFfc='); /* Фон с изображением Алматы */
+            background-size: cover; /* Фон растягивается по всему экрану */
+            background-position: center;
+            color: #fff; /* Текст белого цвета */
+            height: 100%;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: rgba(0, 0, 0, 0.5); /* Прозрачный фон для заголовка */
+        }
+
+        h1 {
+            font-size: 36px;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Тень для текста */
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 10px;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #3e8e41;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+            animation: fadeIn 1.5s ease-out;
+        }
+
+        .content-container {
+            background-color: rgba(0, 0, 0, 0.6); /* Полупрозрачный фон для текста */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+
+        h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            color: #fff;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #fff;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Анимация появления */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header с названием страницы -->
+    <header>
+        <h1>Об Алматы</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Главная</a>
+        <a href="about.html">Об Алматы</a>
+        <a href="attractions.html">Достопримечательности</a>
+        <a href="food.html">Национальная кухня</a>
+        <a href="transport.html">Транспорт</a>
+        <a href="contact.html">Контакты</a>
+    </nav>
+
+    <main>
+        <div class="content-container">
+            <h2>Добро пожаловать в Алматы!</h2>
+            <p>Алматы — крупнейший город Казахстана, исторический и культурный центр страны, который сочетает в себе старинные традиции и современный дух. Это город с богатым наследием, великолепной природой и динамично развивающейся инфраструктурой.</p>
+            <p>Город окружён величественными горами Тянь-Шаня, имеет развитую туристическую инфраструктуру и предлагает множество достопримечательностей, которые оставят незабываемые впечатления.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; Almaty</p>
+    </footer>
+
+</body>
+</html>
